@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+.basliq{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    height: 100vh;   
+}
+nav{
+    font-size: 1rem;
+    color: #FFFFFF80;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    position: sticky;   
+    top: 0%;
+}
+nav h1 a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    display: inline-block;
+    background-position:top;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    margin-left: 20px;
+    transition: .2s;
+}
+nav ul li:hover{
+    color: white;
+}
+.grayscale{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+.grayscale span{
+    margin-bottom: 20px;
+    font-size: 6.5rem;
+    letter-spacing: .8rem;
+    font-weight: 100;
+}
+.grayscale p{
+    padding: auto;
+    font-size: 1.25rem;
+    padding-bottom:70px;
+}
+.grayscale a{
+    text-decoration: none;
+    color: white;
+    background-color: #64a19d;
+    padding: 20px 50px;
+    border-radius: 0.2cm;
+}
+.tablet{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+.tablet h2{
+    font-size: 35px;
+    font-weight: 100;
+}
+.tablet p a{
+    color: #64A19D;
+}
+.tablet p{
+    font-size: 18px;
+    padding: 20px 390px;
+    font-weight: 100;
+    color: #FFFFFF80;
+    margin-bottom: 70px;
+}
+.tablet img{
+    width: 80%; 
+    height: 350px;
+}
+.shoreline{
+    width: 100%;
+   display: flex;
+   align-items: center; 
+   text-align: center;
+   padding-left: 100px;
+   margin: 50px 0px;
+}   
+.border{
+    border-left: 10px solid #64A19D;
+
+}
+.shoreline img{
+    width: 60%;
+}
+.shoreline h3{
+    color: #212529;
+    font-size: 30px;
+    font-weight: 100;
+}
+.shoreline p{
+    padding: 0px 60px;
+    color: #00000080;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 10px;
+}
+.dord{
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.items{ flex-wrap: wrap;
+    width: 70%;
+    margin: auto;   
+    display: flex;
+}
+.sekil{
+    width: 50%;
+    height: 400px;
+    background-color: black;
+}
+.sekil img{
+    height: 100%;
+    width: 100%;
+}
+.yazi{
+    width: 50%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.yazi p{
+    padding: 0px 30px;
+}
+.sonluq{
+    width: 100%;
+} 
+.sonluq .no1{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    background-position: bottom;        
+    text-align: center;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-bottom:200px;
+}
+.sonluq .no1 input{
+    padding: 20px 30px;
+    width: 40%;
+    margin-top: 30px;
+    margin-right: 0px;
+    border-style: none;
+    border-radius:.2cm;
+}
+.sonluq .no1 button{
+    width: 12%;
+    padding: 20px 10px;
+    background-color:#64A19D;
+    color: white;
+    opacity: .6;
+    border-style: none;
+    border-radius:.2cm;
+
+}
+.sonluq .no2{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}   
+.qutucuq{
+    box-sizing: border-box;
+    width: 25%;
+    height: 200px;
+    background-color: white;
+    margin-top: 70px;
+    border-style: none;
+    border-radius:.2cm;
+    border-bottom: 4px solid #64A19D;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 0px 50px;
+    animation-name: yuxari;
+}
+.qutucuq i{
+    color: #64A19D;
+    margin-bottom:8px;
+}
+.qutucuq h4{
+    color: #212529;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.qutucuq hr{
+    margin: auto;
+    width: 15%;
+    margin-bottom: 30px;
+    color: #FFFFFF80;
+    opacity: 0.7;
+}
+.qutucuq p{
+    color:black;
+    opacity: 0.7;
+    padding: 0px 30px;
+}
+.qutucuq a{
+    color: #64A19D;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+footer a{
+    background-color: #FFFFFF1A;
+    padding: 15px 15px;
+    color: silver;
+    margin-right: 16px;
+    border-radius: 100%;
+}
+footer p{
+    padding:80px 0px;
+    color: #FFFFFF80;
+}
